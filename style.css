@@ -1,0 +1,127 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+   .container {
+   z-index: 1;
+   position: relative;
+  } 
+  .main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap:30px;
+  }
+
+  .head h1{
+    font-size:4em ;
+  }
+  #title {
+    text-align: center;
+    background-image: url(img/lucid-dreaming-guide.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-position: center;
+  }
+  
+  #par {
+    text-align: center;
+    color: #ffff;
+  }
+  
+  textarea {
+    resize: both;
+    max-height: 400px;
+    max-width: 500px;
+    min-width: 200px;
+    min-height: 100px;
+    -webkit-box-shadow: 0px 0px 41px 4px rgba(138, 43, 220, 1);
+    -moz-box-shadow: 0px 0px 41px 4px rgba(138, 43, 220, 1);
+    box-shadow: 0px 0px 41px 4px rgba(138, 43, 220, 1);
+border:none;
+border-radius: 15px;
+  }
+  
+  .btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width:300px;
+  }
+#DeleteAll{
+  margin-left:15px;
+}
+  button{
+    border-radius: 15px;
+    padding:5px 5px;
+    border:white;
+  }
+  button:hover{
+    background-color: rgba(215, 89, 252, 1);
+  }
+  
+  a:visited {
+    color: black;
+  }
+ 
+
+  #notes-container{
+    position: absolute;
+    left:0;
+    top:0;
+    height:100vh;
+    width:10%;
+    background-image: linear-gradient(to bottom, rgba(187, 61, 187, 0.86), #2f79ad);
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    -webkit-box-shadow: inset -18px 0px 28px -21px rgb(41, 41, 49);
+    -moz-box-shadow: inset -18px 0px 28px -21px rgb(43, 44, 53);
+    box-shadow: inset -18px 0px 28px -21px rgb(39, 40, 51);
+    font-size: 0.8rem;
+   
+  }
+  #notes-container h4{
+    text-align: center;
+    border-bottom: solid rgb(255, 255, 255) 0.5px;
+    display: block;
+    color:white;
+    font-size: 1rem;
+  }
+ 
+ button a{
+    text-decoration: none;
+  }
+  svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+    width: 100%;
+    height: 100%;
+		box-sizing: border-box;
+		display: block;
+		background-color: #660e66;
+    background-image: linear-gradient(to bottom, rgba(102, 14, 102, 0.86), #0e4166);
+	}
+
+.listBtn{
+  font-size: 0.9rem;
+  border:none;
+  background-color: transparent;
+  color:white;
+  padding-right:10px;
+}
+.listBtn:hover{
+  background-color: rgba(215, 89, 252, 1);
+background-image: linear-gradient(90deg, rgba(215, 89, 252, 1) 0%, rgba(186, 55, 224, 1) 100%);
+  border-radius: 20px 150px 150px 20px;
+}
